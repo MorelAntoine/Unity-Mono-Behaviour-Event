@@ -16,15 +16,15 @@ namespace UniCraft.MonoBehaviourEvent
         ///////////////////////////////
 
         [Header("Activation")]
-        [SerializeField] private UnityEvent _onEnableEvents;
-        [SerializeField] private UnityEvent _onDisableEvents;
+        [SerializeField] private UnityEvent _onEnableEvents = null;
+        [SerializeField] private UnityEvent _onDisableEvents = null;
         
         [Header("Start")]
-        [SerializeField] private UnityEvent _onStartEvents;
+        [SerializeField] private UnityEvent _onStartEvents = null;
         
         [Header("Update")]
-        [SerializeField] private UnityEvent _onPhysicsUpdateEvents;
-        [SerializeField] private UnityEvent _onUpdateEvents;
+        [SerializeField] private UnityEvent _onPhysicsUpdateEvents = null;
+        [SerializeField] private UnityEvent _onUpdateEvents = null;
         
         ////////////////////////////
         ////////// Method //////////
